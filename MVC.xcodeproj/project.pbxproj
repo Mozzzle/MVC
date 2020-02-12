@@ -14,6 +14,9 @@
 		F86575FC23F47D9000346D9A /* Comments.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F86575FA23F47D9000346D9A /* Comments.storyboard */; };
 		F86575FF23F47F3600346D9A /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86575FE23F47F3600346D9A /* Comment.swift */; };
 		F865760123F47F5800346D9A /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F865760023F47F5800346D9A /* CommentCell.swift */; };
+		F865760323F4801A00346D9A /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F865760223F4801A00346D9A /* NetworkError.swift */; };
+		F865760623F4809200346D9A /* GetCommentResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F865760523F4809200346D9A /* GetCommentResponse.swift */; };
+		F865760923F480EC00346D9A /* CommentNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F865760823F480EC00346D9A /* CommentNetworkService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		F86575FB23F47D9000346D9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../../../Desktop/Swift Book/16. Изучаем знаменитый паттерн MVC/03. Project - Part 1/MVC-N/MVC-N/Comments/View/Base.lproj/Comments.storyboard"; sourceTree = "<group>"; };
 		F86575FE23F47F3600346D9A /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
 		F865760023F47F5800346D9A /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
+		F865760223F4801A00346D9A /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		F865760523F4809200346D9A /* GetCommentResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCommentResponse.swift; sourceTree = "<group>"; };
+		F865760823F480EC00346D9A /* CommentNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentNetworkService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,7 @@
 			children = (
 				F86575EF23F47CE000346D9A /* Application */,
 				F86575F623F47D5600346D9A /* Comments */,
+				F865760723F480DE00346D9A /* CommentNetworkService */,
 				F86575FD23F47E0900346D9A /* Supporting files */,
 			);
 			path = MVC;
@@ -94,6 +101,7 @@
 		F86575F223F47D0500346D9A /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				F865760223F4801A00346D9A /* NetworkError.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -111,6 +119,7 @@
 		F86575F723F47D6C00346D9A /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				F865760423F4807900346D9A /* Responses */,
 				F86575FE23F47F3600346D9A /* Comment.swift */,
 			);
 			path = Model;
@@ -140,6 +149,22 @@
 				F86575E723F47C2000346D9A /* Info.plist */,
 			);
 			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		F865760423F4807900346D9A /* Responses */ = {
+			isa = PBXGroup;
+			children = (
+				F865760523F4809200346D9A /* GetCommentResponse.swift */,
+			);
+			path = Responses;
+			sourceTree = "<group>";
+		};
+		F865760723F480DE00346D9A /* CommentNetworkService */ = {
+			isa = PBXGroup;
+			children = (
+				F865760823F480EC00346D9A /* CommentNetworkService.swift */,
+			);
+			path = CommentNetworkService;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,10 +238,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F865760323F4801A00346D9A /* NetworkError.swift in Sources */,
 				F86575DE23F47C1E00346D9A /* CommentsViewController.swift in Sources */,
 				F86575FF23F47F3600346D9A /* Comment.swift in Sources */,
 				F86575DC23F47C1E00346D9A /* AppDelegate.swift in Sources */,
 				F865760123F47F5800346D9A /* CommentCell.swift in Sources */,
+				F865760623F4809200346D9A /* GetCommentResponse.swift in Sources */,
+				F865760923F480EC00346D9A /* CommentNetworkService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
