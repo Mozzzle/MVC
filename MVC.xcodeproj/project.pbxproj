@@ -17,6 +17,7 @@
 		F865760323F4801A00346D9A /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F865760223F4801A00346D9A /* NetworkError.swift */; };
 		F865760623F4809200346D9A /* GetCommentResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F865760523F4809200346D9A /* GetCommentResponse.swift */; };
 		F865760923F480EC00346D9A /* CommentNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F865760823F480EC00346D9A /* CommentNetworkService.swift */; };
+		F865760C23F4817A00346D9A /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F865760B23F4817A00346D9A /* NetworkService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		F865760223F4801A00346D9A /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
 		F865760523F4809200346D9A /* GetCommentResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCommentResponse.swift; sourceTree = "<group>"; };
 		F865760823F480EC00346D9A /* CommentNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentNetworkService.swift; sourceTree = "<group>"; };
+		F865760B23F4817A00346D9A /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 				F86575F223F47D0500346D9A /* Model */,
 				F86575F123F47CFD00346D9A /* View */,
 				F86575F023F47CEF00346D9A /* Controller */,
+				F865760A23F4815600346D9A /* NetworkService */,
 			);
 			path = Application;
 			sourceTree = "<group>";
@@ -167,6 +170,14 @@
 			path = CommentNetworkService;
 			sourceTree = "<group>";
 		};
+		F865760A23F4815600346D9A /* NetworkService */ = {
+			isa = PBXGroup;
+			children = (
+				F865760B23F4817A00346D9A /* NetworkService.swift */,
+			);
+			path = NetworkService;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -240,6 +251,7 @@
 			files = (
 				F865760323F4801A00346D9A /* NetworkError.swift in Sources */,
 				F86575DE23F47C1E00346D9A /* CommentsViewController.swift in Sources */,
+				F865760C23F4817A00346D9A /* NetworkService.swift in Sources */,
 				F86575FF23F47F3600346D9A /* Comment.swift in Sources */,
 				F86575DC23F47C1E00346D9A /* AppDelegate.swift in Sources */,
 				F865760123F47F5800346D9A /* CommentCell.swift in Sources */,
