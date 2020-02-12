@@ -12,6 +12,8 @@
 		F86575E323F47C2000346D9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F86575E223F47C2000346D9A /* Assets.xcassets */; };
 		F86575F523F47D1B00346D9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F86575F323F47D1B00346D9A /* LaunchScreen.storyboard */; };
 		F86575FC23F47D9000346D9A /* Comments.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F86575FA23F47D9000346D9A /* Comments.storyboard */; };
+		F86575FF23F47F3600346D9A /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86575FE23F47F3600346D9A /* Comment.swift */; };
+		F865760123F47F5800346D9A /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F865760023F47F5800346D9A /* CommentCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		F86575E723F47C2000346D9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F86575F423F47D1B00346D9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../../../../../Desktop/Swift Book/16. Изучаем знаменитый паттерн MVC/03. Project - Part 1/MVC-N/MVC-N/Application/View/Base.lproj/LaunchScreen.storyboard"; sourceTree = "<group>"; };
 		F86575FB23F47D9000346D9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../../../Desktop/Swift Book/16. Изучаем знаменитый паттерн MVC/03. Project - Part 1/MVC-N/MVC-N/Comments/View/Base.lproj/Comments.storyboard"; sourceTree = "<group>"; };
+		F86575FE23F47F3600346D9A /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		F865760023F47F5800346D9A /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +111,7 @@
 		F86575F723F47D6C00346D9A /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				F86575FE23F47F3600346D9A /* Comment.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -115,6 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				F86575FA23F47D9000346D9A /* Comments.storyboard */,
+				F865760023F47F5800346D9A /* CommentCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -208,7 +214,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F86575DE23F47C1E00346D9A /* CommentsViewController.swift in Sources */,
+				F86575FF23F47F3600346D9A /* Comment.swift in Sources */,
 				F86575DC23F47C1E00346D9A /* AppDelegate.swift in Sources */,
+				F865760123F47F5800346D9A /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
